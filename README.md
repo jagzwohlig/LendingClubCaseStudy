@@ -11,42 +11,26 @@
 <!-- You can include any other section that is pertinent to your problem -->
 
 ## General Information
-- Provide general information about your project here.
-- What is the background of your project?
-- What is the business probem that your project is trying to solve?
-- What is the dataset that is being used?
-
-<!-- You don't have to answer all the questions - just the ones relevant to your project. -->
+- The project aims to assist a consumer finance company in making informed decisions when approving or rejecting loan applications.
+- The company faces two types of risks: losing business by rejecting loan applications from borrowers who are likely to repay, and financial loss by approving loans to borrowers who are likely to default.
+- The project utilizes historical loan data, including borrower characteristics and loan attributes, to identify patterns and factors that contribute to loan defaults.
+- The dataset used in this project contains information about past loan applicants, their demographics, credit history, loan characteristics, and repayment status.
 
 ## Conclusions
-- Conclusion 1 from the analysis
-- Conclusion 2 from the analysis
-- Conclusion 3 from the analysis
-- Conclusion 4 from the analysis
-
-<!-- You don't have to answer all the questions - just the ones relevant to your project. -->
+- Loans with interest rates above 15% have a significantly higher default rate (33.3%) compared to the overall default rate (14.2%).
+- Borrowers with longer employment lengths (10+ years) have a lower default rate, indicating that employment stability is a key factor in loan repayment.
+- The majority of loans in the dataset are fully paid (85.8%), while a smaller proportion are charged off (14.2%).
+- Loan amounts are right-skewed, with most loans falling in the range of $5,000 to $20,000.
 
 
 ## Technologies Used
-- library - version 1.0
-- library - version 2.0
-- library - version 3.0
-
-<!-- As the libraries versions keep on changing, it is recommended to mention the version of library used in this project -->
+- Python - version 3.9.7
+- pandas - version 1.3.4
+- matplotlib - version 3.4.3
+- seaborn - version 0.11.2
 
 ## Acknowledgements
-Give credit here.
-- This project was inspired by...
-- References if any...
-- This project was based on [this tutorial](https://www.example.com).
 
-
-## Contact
-Created by [@githubusername] - feel free to contact me!
-
-
-<!-- Optional -->
-<!-- ## License -->
-<!-- This project is open source and available under the [... License](). -->
-
-<!-- You don't have to include all sections - just the one's relevant to your project -->
+- This project was inspired by the need for data-driven decision-making in the lending industry.
+- The dataset used in this project was obtained from Upgrad Team.
+- The project was based on the concepts and techniques learned from various online session of Shivam.
