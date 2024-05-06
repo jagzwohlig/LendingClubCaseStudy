@@ -1,5 +1,5 @@
 # Project Name
-> Outline a brief description of your project.
+> Presentation outline that covers the overall approach of the loan default risk analysis, including the problem statement, analysis approach, and key findings.
 
 
 ## Table of Contents
